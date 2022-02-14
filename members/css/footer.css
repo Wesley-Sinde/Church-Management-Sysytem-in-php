@@ -1,0 +1,133 @@
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 30;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 10px;
+    border-radius: 16px;
+    background: #81132f;
+    display: inline-block;
+}
+
+.small {
+    color: #1a053b;
+    font-size: 18px;
+}
+
+.footer-top p {
+    color: rgb(59, 5, 5);
+    line-height: 25px;
+}
+
+.footer-top h2,
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+.footer-top h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: rgb(23, 162, 184);
+    padding: 80px 0;
+}
+
+.segment-one h3 {
+    font-family: courgette;
+    color: rgb(255, 245, 245);
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-two h2 {
+    font-family: courgette;
+    color: rgb(233, 232, 232);
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+
+/* .segment-two h2:before {
+    content: '|';
+    color: #e6d70d;
+    padding-right: 10px;
+} */
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    color: rgb(29, 25, 25);
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #080403;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a li {
+    font-size: 25px !important;
+    color: rgb(14, 11, 11);
+    padding: 8px 10px;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: rgb(2, 38, 49);
+    line-height: 75px;
+    color: rgb(255, 251, 0);
+}
+
+
+/* Responsive css */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
